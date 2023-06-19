@@ -1,10 +1,10 @@
 FROM python:3.10
 
-ADD app.py .
+ADD variables.py .
 
 ADD logic.py .
 
-ADD variables.py .
+ADD app.py .
 
 RUN pip install customtkinter numpy matplotlib
 
